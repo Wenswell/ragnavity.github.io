@@ -1,3 +1,9 @@
+body {
+  background: url("http://www.005.tv/uploads/allimg/170303/22-1F3031P915939.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -1833,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd04b4;
+  background: #ffffc8;
 }
 .links-of-blogroll {
   font-size: 13px;
