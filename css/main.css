@@ -1862,7 +1862,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2ba8;
+  background: #0124ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3201,11 +3201,14 @@ pre .javascript .function {
   font-family: 'Damion', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   padding: 15px;
   -webkit-box-shadow: 0 0 7px rgba(202,203,203,0.5);
   -moz-box-shadow: 0 0 7px rgba(202,203,204,0.5);
+}
+.posts-expand .post-meta {
+  margin: 3px 0 -5px 0;
 }
 .post-sticky-flag {
   font-size: inherit;
@@ -3233,6 +3236,14 @@ img.img-topic {
   padding: 0;
   float: right;
   clear: right;
+}
+.site-nav-on {
+  display: none;
+  margin: 0 -10px;
+  padding: 0 10px;
+  clear: both;
+  border-top-style: none;
+/*border-top: 1px solid #ddd;*/
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
